@@ -48,4 +48,6 @@ function deepClone(obj) {
 let obj = { a: { a: 1 } }
 let newObj = deepClone(obj);
 obj.a.a = 2;
-console.log(newObj)
+console.log(newObj);
+
+
