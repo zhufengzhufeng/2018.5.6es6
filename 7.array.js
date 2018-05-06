@@ -73,3 +73,5 @@ console.log(obj2.name);
 
 // 原型链 class的实现
 // promise的用法
+// generator
+
