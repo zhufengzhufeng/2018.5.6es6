@@ -72,5 +72,3 @@ let Child = function (Parent) {
 }(Parent)
 let c = new Child('珠峰培训');
 console.log(Child.a());
-
-

@@ -1,10 +1,11 @@
 class Parent {
   constructor(){
     this.parent = 'parent';
+    return {a:1}
   }
   static a(){console.log(1000)}
   smoking(){
-    console.log('吸烟')
+    console.log('吸烟');
   }
 }
 class Child extends Parent {
@@ -21,8 +22,7 @@ class Child extends Parent {
 }
 let child = new Child('zfpx');
 // 静态方法也会被继承
-Child.a()
-
+console.log(child)
 
 // Object.defineProperty();
 
